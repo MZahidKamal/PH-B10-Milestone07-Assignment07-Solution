@@ -1,0 +1,47 @@
+.footer-upper {
+    @apply flex flex-col justify-center items-center pt-80 pb-24
+}
+
+.footer-divider {
+    @apply border border-gray-500/30
+}
+
+.footer-lower-text {
+    @apply text-sm text-white/50 text-center font-extralight py-8
+}
+
+.footer-l-title {
+    @apply text-white text-lg font-semibold mb-5
+}
+
+.footer-l-description {
+    @apply text-white/50 text-base font-extralight w-10/12
+}
+
+.footer-m-title {
+    @apply text-white text-lg font-semibold mb-5
+}
+
+.footer-m-ul {
+    @apply list-disc text-white/50 text-base font-extralight flex flex-col gap-y-3
+}
+
+.footer-m-li {
+    @apply cursor-pointer hover:font-bold hover:text-white/60
+}
+
+.footer-r-title {
+    @apply text-white text-lg font-semibold mb-5
+}
+
+.footer-r-description {
+    @apply text-white/50 text-base font-extralight w-8/12
+}
+
+.footer-r-input {
+    @apply w-8/12 border rounded-l-xl px-4 py-3
+}
+
+.footer-r-button {
+    @apply border-l-0 rounded-r-xl px-7 py-3 font-bold bg-gradient-to-r from-[#d786af] via-[#f2b597] to-[#f6c653] active:scale-95 transition transform duration-100
+}

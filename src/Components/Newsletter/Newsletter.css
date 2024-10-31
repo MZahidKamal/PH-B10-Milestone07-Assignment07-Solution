@@ -1,0 +1,23 @@
+.newsletter-container-1 {
+    @apply container border border-white rounded-xl m-auto my-10 p-5 bg-transparent absolute z-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+}
+
+.newsletter-container-2 {
+    @apply border border-gray-500/50 rounded-xl p-28 bg-[url(/images/bg-colour.png)] bg-cover bg-center bg-no-repeat flex flex-col gap-y-5 justify-center items-center
+}
+
+.newsletter-title {
+    @apply text-3xl font-bold
+}
+
+.newsletter-description {
+    @apply text-lg font-medium text-gray-500/90
+}
+
+.newsletter-email-input {
+    @apply w-96 border rounded-xl px-4 py-3
+}
+
+.newsletter-subscribe-button {
+    @apply border-l-0 rounded-xl px-7 py-3 font-bold bg-gradient-to-r from-[#d786af] via-[#f2b597] to-[#f6c653] active:scale-95 transition transform duration-100
+}

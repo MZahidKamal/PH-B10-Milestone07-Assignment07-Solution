@@ -1,0 +1,7 @@
+.nav-menu-button{
+    @apply cursor-pointer hover:font-bold w-20 active:scale-95 transition transform duration-100
+}
+
+.nav-coin-container{
+    @apply border-2 rounded-xl pr-5 pl-8 py-2 flex justify-center items-center gap-2 cursor-pointer hover:border-gray-300
+}

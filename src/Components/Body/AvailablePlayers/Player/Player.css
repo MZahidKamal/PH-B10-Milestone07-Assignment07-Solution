@@ -1,0 +1,15 @@
+.player-card {
+    @apply border rounded-xl p-6 flex flex-col gap-y-5 shadow-xl hover:scale-105 transition transform duration-100
+}
+
+.player-all-rounder {
+    @apply border px-5 py-1 rounded-lg font-semibold bg-gray-500/25 cursor-default
+}
+
+.player-choose-button {
+    @apply border-2 px-5 py-1 rounded-lg cursor-pointer active:scale-95 active:bg-[#E5FC29] transition transform duration-100
+}
+
+.player-choose-button-text {
+    @apply font-semibold h-8 flex justify-center items-center
+}

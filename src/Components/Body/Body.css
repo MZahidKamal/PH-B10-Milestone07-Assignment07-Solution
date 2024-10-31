@@ -1,0 +1,27 @@
+.body-container-1 {
+    @apply container m-auto mt-10 mb-80 relative
+}
+
+.body-container-2 {
+    @apply flex justify-between items-center mb-10
+}
+
+.body-title {
+    @apply text-3xl font-bold
+}
+
+.available-tab-default {
+    @apply border border-r-0 bg-white rounded-l-xl px-6 py-3 font-bold active:scale-95 transition transform duration-100
+}
+
+.available-tab-active {
+    @apply border border-r-0 bg-[#E5FC29] rounded-l-xl px-6 py-3 font-bold active:scale-95 transition transform duration-100
+}
+
+.selected-tab-default {
+    @apply border border-l-0 bg-white rounded-r-xl px-6 py-3 font-bold active:scale-95 transition transform duration-100
+}
+
+.selected-tab-active {
+    @apply border border-l-0 bg-[#E5FC29] rounded-r-xl px-6 py-3 font-bold active:scale-95 transition transform duration-100
+}

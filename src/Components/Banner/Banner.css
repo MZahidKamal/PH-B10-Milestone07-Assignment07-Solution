@@ -1,0 +1,20 @@
+.banner-container {
+    @apply container border rounded-2xl m-auto bg-gray-900 bg-[url(/src/assets/images/bg-shadow.png)] bg-cover bg-center bg-no-repeat p-16 flex flex-col justify-center items-center gap-5
+}
+
+.banner-title {
+    @apply text-6xl text-white font-bold
+}
+
+.banner-description {
+    @apply text-lg text-white font-extralight w-7/12 text-center
+}
+
+.banner-button-container {
+    @apply border border-[#E5FC29] rounded-xl p-1 active:scale-95 transition transform duration-100
+}
+
+.banner-button {
+    @apply bg-[#E5FC29] rounded-lg px-6 py-3 font-bold
+}
+
